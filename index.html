@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <main class="main">
+    <section class="controls">
+      <section class="inputData">
+        <span class="title">Text</span>
+        <input type="text" class="input inputText"/>
+        <span class="title">Color</span>
+        <input type="text" class="input inputColor"/>
+        <span class="title">Type</span>
+        <select class="itemType">
+          <option value="disc">Disc</option>
+          <option value="circle">Circle</option>
+          <option value="square">Square</option>
+        </select>
+      </section>
+      <span class="title">Actions</span>
+      <section class="controls_buttons">
+        <button class="button creatorButton">Create</button>
+        <button class="button changeButton">Change</button>
+        <button class="button deleteButton">Delete</button>
+      </section>
+      <span class="info"></span>
+    </section>
+    <section class="listContainer">
+      <span class="title">List</span>
+      <ul class="list">
+      </ul> 
+    </section>
+  </main>
+<script src="index.js"></script>
+</body>
+</html>
